@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:widgetspratice/pages/gridview.dart';
 import 'package:widgetspratice/pages/gridviewbuilder.dart';
+import 'package:widgetspratice/pages/imagenetwork.dart';
 import 'package:widgetspratice/pages/textandnetimage.dart';
 
 void main(){
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Practice',
-      home: Example24(),
+      home: Example25(),
     );
   }
 }
